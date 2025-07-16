@@ -7,5 +7,6 @@ pydantic
 tqdm
 torch
 
-chromadb
+# ChromaDB dependencies
+numpy==1.26.4
 chromadb==0.4.22
