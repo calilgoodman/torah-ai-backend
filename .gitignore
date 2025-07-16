@@ -1,0 +1,12 @@
+chroma/
+chromadb/
+data/
+output/
+__pycache__/
+*.pyc
+*.pkl
+*.db
+*.json
+*.log
+.env
+
