@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+openai
+httpx
+jinja2
+pydantic
+tqdm
+torch
+
