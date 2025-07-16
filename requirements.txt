@@ -1,3 +1,4 @@
+numpy==1.26.4  # Pin this BEFORE chromadb to avoid conflict with np.float_
 fastapi
 uvicorn[standard]
 openai
@@ -6,7 +7,4 @@ jinja2
 pydantic
 tqdm
 torch
-
-# ChromaDB dependencies
-numpy==1.26.4
 chromadb==0.4.22
