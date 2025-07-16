@@ -8,3 +8,4 @@ tqdm
 torch
 
 chromadb
+chromadb==0.4.22
