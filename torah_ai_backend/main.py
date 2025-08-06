@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # === Paths ===
-CHROMA_PATH = os.environ.get("CHROMA_PATH", "./chromadb")
+CHROMA_PATH = "/root/torah-ai-backend/torah-ai-companion/chromadb"
 
 # === Ensure ChromaDB directory exists ===
 os.makedirs(CHROMA_PATH, exist_ok=True)
