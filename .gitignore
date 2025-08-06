@@ -1,71 +1,40 @@
-# ===================
-# General OS / Editor
-# ===================
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*.tmp
-*.bak
-*.orig
-
-# ===================
-# Python
-# ===================
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
-*.pkl
-*.log
+*.pyo
+*.pyd
 
-# Virtual environments
+# Environment
 venv/
-venv_backend/
 .env
 
-# Jupyter Notebooks checkpoints
-.ipynb_checkpoints/
-
-# VS Code settings
-.vscode/
-
-# ===================
-# Node / Frontend
-# ===================
+# Node.js
 node_modules/
-dist/
+
+# Build / dist
 build/
-.npm/
-npm-debug.log
-yarn-error.log
+dist/
 
-# React cache
-.cache/
-.next/
-out/
-
-# ===================
-# Data & backups
-# ===================
-*.zip
-*.tar
-*.gz
-*.tgz
-*.7z
-
-# Ignore test data or intermediate files
-output/
-backup_data/
-torah_ai_data/
-
-# Ignore all raw input JSON source files
-torah_ai_backend/data/
-
-# Ignore all ChromaDB persistent files
-**/*.bin
-**/*.pickle
-**/index_metadata.*
-**/link_lists.bin
-
-# Dropbox zip file
-torah_ai_backend/chromadb.zip
+# SQLite & ChromaDB artifacts
+*.sqlite3
 chromadb/
+
+# Logs & system files
+*.log
+*.DS_Store
+
+# Data and zipped artifacts
+data/
+*.zip
+
+# React static build (if used)
+torah_ai_frontend/build/
+
+# Python & frontend coverage/test artifacts
+htmlcov/
+coverage.xml
+.cache/
+pytest_cache/
+
+# Misc
+*.egg-info/
